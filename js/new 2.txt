@@ -1,0 +1,22 @@
+<style>
+	#toTop{
+		display: none;
+		text-decoration: none;
+		position: fixed;
+		bottom: 14px;
+		right: 3%;
+		overflow: hidden;
+		width: 40px;
+		height: 40px;
+		border: none;
+		text-indent: 100%;
+		background: url('../../img/rosmery_img/to-top1.png') no-repeat 0px 0px;
+	}
+</style>
+script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+<script>$('.carousel').carousel({
+	interval: 2000
+})</script>
